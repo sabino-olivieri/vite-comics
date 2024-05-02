@@ -1,10 +1,11 @@
 <template>
 
-    <AppHeader />
-    <AppMain />
-    <AppBluBanner />
-    <AppMainFooter />
-    <AppLogoFooter />
+        <AppHeader />
+        <AppMain />
+        <AppBluBanner />
+        <AppMainFooter />
+        <AppLogoFooter />
+
 
 </template>
 
