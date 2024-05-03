@@ -3,7 +3,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="../assets/img/dc-logo.png" alt="">
+                <a href=""><img src="../assets/img/dc-logo.png" alt="Logo DC"></a>
             </div>
 
             <nav>
@@ -99,6 +99,12 @@ header {
                         bottom: 0;
                     }
 
+                    &:before {
+                        content: "";
+                        width: 0px;
+                        transition: all 0.5s;
+                    }
+
                     &:hover:before {
                         content: "";
                         width: 100%;
@@ -106,6 +112,7 @@ header {
                         background-color: $primary-blue;
                         position: absolute;
                         bottom: 0;
+                        left: 0;
                     }
                 }
 
@@ -113,6 +120,7 @@ header {
                 a {
                     font-weight: bold;
                     font-size: 0.8rem;
+                    padding: 30px 0;
 
                     &:hover {
                         color: $primary-blue;

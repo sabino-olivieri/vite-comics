@@ -7,7 +7,7 @@
                 <span>follow us</span>
 
                 <ul>
-                    <li v-for="item in listLogo"><a href=""><img :src="getImagePath(item)" alt=""></a></li>
+                    <li v-for="item in listLogo"><a href=""><img :src="getImagePath(item)" :alt="`Logo ${item}`"></a></li>
                 </ul>
             </div>
         </div>
@@ -40,7 +40,7 @@ export default {
 }
 
 .container {
-    height: 100px;
+    padding: 30px 0;
     @include flex(space-between, center);
 
     .btn {
