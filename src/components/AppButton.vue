@@ -19,7 +19,7 @@ export default {
         display: inline-block;
         padding: 10px 15px;
         border: 2px solid $primary-blue;
-        min-width: 100px;
+        min-width: 150px;
         background-color: $primary-blue;
         color: white;
         font-weight: bold;
