@@ -55,7 +55,7 @@ export default {
 @use "../style/_mixin.scss" as *;
 
 .container {
-    padding: 0px 10px;
+    padding: 40px 10px;
     @include flex(center, center);
 
     ul {
@@ -79,7 +79,6 @@ export default {
 }
 
 .blu-banner {
-    height: 100px;
     background-color: blue;
     @include flex(center, center);
 }
