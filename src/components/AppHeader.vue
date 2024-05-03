@@ -76,7 +76,11 @@ export default {
 header {
     color: $grey-footer;
     height: $header-height;
-    
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
 
     .container {
         @include flex(space-between, center);
