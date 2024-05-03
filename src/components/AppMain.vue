@@ -10,7 +10,7 @@
 
             <div class="row">
                 <div class="col" v-for="element in arrayCard">
-                    <AppCard :thumb="element.thumb" :series="element.series"/>
+                    <AppCard :thumb="element.thumb" :series="element.series" :price="element.price"/>
                 </div>
             </div>
 
